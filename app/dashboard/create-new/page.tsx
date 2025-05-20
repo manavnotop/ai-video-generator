@@ -18,7 +18,7 @@ export default function CreateNew(){
 
       <div className="mt-10 shadow-md p-10">
         <SelectTopic onUserSelect={onHandleInputChange} />
-        <SelectStyle />
+        <SelectStyle onUserSelect={onHandleInputChange} />
       </div>
     </div>
   )
